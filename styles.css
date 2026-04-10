@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+   background-color: #f0f2f6; 
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.botao_Contato {
+  font-family: "Chivo", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #1293fd;
+  background-color: transparent;
+  border: 1px solid rgba(18, 147, 253, 0.3);
+  align-content: center;
+  width: 154px;
+  height: 48px;
+}
+
+#foto_pag_inicial {
+  width: 100%;
+  max-width: 540px;
+  flex-shrink: 0;
+}
+
+#pag_inicial {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 40px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+#pag_inicial p{
+    font-family: "Chivo", sans-serif;
+    font-size: 20px;
+    margin: 20px 0px 40px 0px;
+}   
+
+#pag_texto {
+  flex: 1;
+}
+
+.h1_titulo_pag {
+  font-family: "Chivo", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -3px;
+  color: #333333;
+}

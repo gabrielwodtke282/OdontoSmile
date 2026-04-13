@@ -81,3 +81,50 @@ section {
   letter-spacing: -3px;
   color: #333333;
 }
+
+/* seção dois(cards) */
+
+#desktop_cards {
+    width: 1170px;
+    gap: 30px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+.card {
+    margin: 0px;
+  }  
+
+.card {
+  width: 329px;
+  height: 512px;
+  border: 1px solid #d1e4e0;
+
+  color: #ffffff;
+  margin: 51px 23px 0px 23px;
+}
+
+.fotos_card {
+  width: 329px;
+  height: 224px;
+}
+
+.titulo_card {
+  font-family: "Chivo", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+
+  margin: 40px 120px 0px 28px;
+}
+
+.texto_card {
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+  opacity: 0.5;
+  margin: 18px 28px 0px 27px;
+}  

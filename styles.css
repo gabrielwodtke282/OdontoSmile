@@ -38,9 +38,18 @@ section {
   color: #1293fd;
   background-color: transparent;
   border: 1px solid rgba(18, 147, 253, 0.3);
-  align-content: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 154px;
   height: 48px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao_Contato:hover {
+  background-color: rgba(18, 147, 253, 0.08);
+  border-color: #1293fd;
 }
 
 #foto_pag_inicial {
@@ -71,6 +80,9 @@ section {
 
 #pag_texto {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .h1_titulo_pag {
@@ -96,7 +108,7 @@ section {
   }  
 
 .card {
-  width: 329px;
+  width: 329px; 
   height: 512px;
   border: 1px solid #d1e4e0;
 
@@ -208,6 +220,7 @@ footer {
 .price {
   position: relative;
   margin-top: 20px;
+  font-family: "Chivo", sans-serif;
 }
 
 .price .front .price {
@@ -246,6 +259,7 @@ footer {
   font-size: 13px;
   text-transform: uppercase;
   transition: 0.3s;
+  font-family: "Chivo", sans-serif;
 }
 
 .button:hover {
@@ -263,19 +277,20 @@ footer {
 form {
   width: 100%;
   max-width: 500px;
-  background: white;
+  border: 1px solid #d1e4e0;
+  color: #ffffff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  font-family: "Chivo", sans-serif;
 }
 
-h1 {
+form h1 {
   text-align: center;
   margin-bottom: 10px;
   color: #333;
 }
 
-p {
+form p {
   text-align: center;
   margin-bottom: 20px;
   color: #777;
@@ -289,9 +304,11 @@ h4 {
 input, select, textarea {
   width: 100%;
   padding: 10px;
+  
   border: 1px solid #ccc;
   border-radius: 5px;
   transition: 0.2s;
+  font-family: "Chivo", sans-serif;
 }
 
 input:focus, select:focus, textarea:focus {
@@ -309,7 +326,7 @@ input:focus, select:focus, textarea:focus {
   text-align: center;
 }
 
-button {
+.btn-block button {
   width: 100%;
   padding: 12px;
   border: none;
@@ -319,8 +336,9 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
+  font-family: "Chivo", sans-serif;
 }
 
-button:hover {
+.btn-block button:hover {
   background: #0d74c9;
 }

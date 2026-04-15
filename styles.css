@@ -89,6 +89,7 @@ section {
     gap: 30px;
     display: flex;
     margin: 0 auto;
+    padding-bottom: 3rem;
   }
 
 .card {
